@@ -1,0 +1,64 @@
+import random
+
+# I use module to remove the graphic out of the programm
+import day04rock
+import day04paper
+import day04scissor
+
+random_integer1 = random.randint(0,2)
+random_integer2 = random.randint(0,2)
+
+moves = [day04rock.rock, day04paper.paper, day04scissor.scissor]
+
+print(random_integer1)
+print(moves[random_integer1])
+
+print(random_integer2)
+print(moves[random_integer2])
+
+
+if random_integer1 == random_integer2:
+    print("Equal nobody wins!")
+# this part was tricky I use help because the and or coding wasn't teach yet
+elif (random_integer1 == 0 and random_integer2 == 2) or \
+     (random_integer1 == 1 and random_integer2 == 0) or \
+     (random_integer1 == 2 and random_integer2 == 1):
+    print("Player 1 wins!")
+
+else:
+    print("Player 2 wins!")
+
+exit()
+
+# with exit I stop the lower code
+
+
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+
