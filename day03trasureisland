@@ -1,1 +1,27 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+cross1 = str(input("You reach a crossroad chose left or right:")).strip().lower()
+if cross1 == "left":
+    cross2 = input("You reach a next crossroad chose swim or wait:").strip().lower()
+else:
+    print("You Fall into a hole. Game Over.")
+    exit()
 
+if cross2 == "wait":
+    cross3 = input("You reach a room with different colored doors chose: red or blue or yellow:").strip().lower()
+else:
+    print("You Attacked by trout. Game Over.")
+    exit()
+
+if cross3 == "red":
+    print("You Attacked by trout. Game Over.")
+    exit()
+elif cross3 == "blue":
+    print("You are Eaten by beasts. Game Over.")
+    exit()
+elif cross3 == "yellow":
+    print("You Win!")
+    exit()
+else:
+    print("Game Over.")
+    exit()
