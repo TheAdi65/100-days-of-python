@@ -1,0 +1,15 @@
+states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland",
+                     "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island",
+                     "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois",
+                     "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin",
+                     "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado",
+                     "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
+                     "New Mexico", "Arizona", "Alaska", "Hawaii"]
+
+oceans_of_the_world = ["Atlantic Ocean", "Pacific Ocean", "India Ocean", "Antarctic Ocean", "Arctic Ocean" ]
+
+#new_list = [states_of_america, oceans_of_the_world]
+print(states_of_america)
+print(oceans_of_the_world)
+
+#print(len(states_of_america))
