@@ -1,0 +1,11 @@
+import random
+
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+
+# len count 5 so int 5 exist but list count start by 0 so 5 didn't exist => len(friends) -1 
+random_integer = random.randint(0, len(friends) -1)
+# print the int
+print(random_integer)
+
+# print the name of the position of int in the list
+print(friends[random_integer])
