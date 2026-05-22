@@ -4,7 +4,7 @@ print("Hello")
 def get_user_name():
     # Here is the inside program of function
     name = str(input("What is your name? "))
-    print(f"Hello")
+    print("Hello")
     print(f"{name}")
 
 # call the function
