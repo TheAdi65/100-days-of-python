@@ -1,0 +1,11 @@
+print("Hello")
+
+# define a function without variable: def get_user_name()
+def get_user_name():
+    # Here is the inside program of function
+    name = str(input("What is your name? "))
+    print(f"Hello")
+    print(f"{name}")
+
+# call the function
+get_user_name()
