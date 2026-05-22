@@ -1,0 +1,11 @@
+range(1, 100)
+
+# start condition 0
+sum = 0
+
+# included lower bound but not upper bound -> 100 + 1
+for i in range(1, 101):
+   sum += i
+   
+# Print in first place else error
+print(sum)
